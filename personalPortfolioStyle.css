@@ -1,1 +1,130 @@
+@media only screen and (max-width: 600px) {    
+}
 
+header {
+    background-color: black;
+    height: 50px;
+}
+body {
+    background-color:palevioletred ;
+    font-family: 'Courier New', Courier, monospace;
+}
+#navbar {
+    color: pink;
+    position: fixed;
+    overflow: hidden;
+    background-color: black;
+    width: 99%;
+}
+#navbar ul {
+display: flex;
+justify-content: right;
+font-size: larger;
+}
+#navbar ul li {
+list-style-type: none;
+margin:0;
+padding:0;
+width: 150px;
+text-align: center;
+
+}
+#navbar ul li a {
+    display: block;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: pink;
+    font-size: 25px;
+}
+#navbar ul li a:hover {
+    background-color:darkmagenta ;
+}
+#welcome-section {
+    padding-top: 80px;
+    text-align: center;
+    height: 186px;
+}
+#projects {
+    direction: ltr;
+    text-align: center;
+    text-decoration: none;
+}
+#projects h3 {
+    text-align: center;
+    padding-top: 60px;
+}
+#project-tile-section a{
+    text-decoration: none;
+}
+#project-1 {
+display: inline-block;
+padding-right: 50px;
+padding-top:25px;
+}
+#project-2 {
+display: inline-block;
+padding-left: 50px;
+padding-top: 25px;
+}
+#project-3 {
+display: inline-block;
+padding-right: 50px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+#project-4 {
+display: inline-block;
+padding-left:50px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+.project-title {
+    text-decoration: none;
+    background-color: black;
+    color: pink;
+}
+.project-title:hover {
+    font-weight: bolder;
+}
+#project-link {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    
+}
+footer {
+    background-color: black;
+    color: pink;
+    text-align: center;
+    float: inline-end;
+    width:99%;
+    position:relative;
+    bottom:0;
+    height: 110px;
+   
+
+}
+#contact ul {
+display: flex;
+justify-content: center;
+font-size: larger;
+
+}
+#contact ul li {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width: 250px;
+    text-align: center;
+}
+#contact ul li a {
+    display: block;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: pink;
+}
+#contact ul li a:hover {
+font-weight:bolder;
+
+}
