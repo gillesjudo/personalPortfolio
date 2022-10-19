@@ -17,6 +17,7 @@ body {
     overflow: hidden;
     background-color: black;
     width: 99%;
+    height: 80px;
 }
 #navbar ul {
 display: flex;
@@ -42,10 +43,8 @@ text-align: center;
     background-color:darkmagenta ;
 }
 #welcome-section {
-    padding: 80px 225px 0px 225px ;
+    padding: 80px 15% 0px 15%;
     text-align: center;
-    height: 186px;
-    font-size: large;
 }
 #projects {
     direction: ltr;
