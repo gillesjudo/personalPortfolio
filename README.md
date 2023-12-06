@@ -1,1 +1,0 @@
-Hello, My name is Gilles and welcome to my personal portfolio. 
